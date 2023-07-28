@@ -27,6 +27,54 @@
     
       gtag('config', 'UA-145422227-28');
     </script>
+
+	<style>
+        /* Button styles */
+        .download-button {
+            display: inline-block;
+            padding: 12px 24px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            border: 2px solid #000; /* Added black border */
+            font-weight: bold;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+            animation: pulse 1s infinite, colorChange 5s infinite alternate;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Animation styles */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* Random background color change */
+        @keyframes colorChange {
+            0% {
+                background-color: #3498db;
+            }
+            25% {
+                background-color: #e74c3c;
+            }
+            50% {
+                background-color: #2ecc71;
+            }
+            75% {
+                background-color: #f39c12;
+            }
+            100% {
+                background-color: #3498db;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -54,9 +102,7 @@
                         <h1>✅ Fast and easy payment</h1>
                         <h3><h2>Bangladeshi game app per day 5000 taka income, payment bkash Nagad 2023</h2>
                     </h3>
-                        <a href="downloads/OPPA.apk" class="btn download-btn" style="font-size: 18px;">
-                            <i class='bx bxs-download bx-tada'></i> App Download
-                        </a>
+                        <a class="download-button" href="#">Download App</a>
                         <br />
                     </div>
                 </div>
